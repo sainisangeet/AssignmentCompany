@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add New Company"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_name"
+                android:padding="5dp"
+                android:id="@+id/company_name"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tin"
+                android:padding="5dp"
+                android:id="@+id/tin_number"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_pan"
+                android:padding="5dp"
+                android:id="@+id/company_pan"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_tax_number"
+                android:padding="5dp"
+                android:id="@+id/service_tax"
+                />
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/proprietor_s_name"
+                    android:padding="5dp"
+                    android:layout_weight="50"
+                    android:id="@+id/property_name"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/established"
+                    android:layout_weight="50"
+                    android:padding="5dp"
+                    android:id="@+id/established"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address_line_1"
+                android:padding="5dp"
+                android:id="@+id/address_line1"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address_line_2"
+                android:padding="5dp"
+                android:id="@+id/address_line2"
+                />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:id="@+id/state"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:id="@+id/city"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pin_code"
+                android:padding="5dp"
+                android:id="@+id/pin_code"
+                />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/any_contact_at_msupply"
+                    android:layout_marginRight="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="50"
+                    android:id="@+id/msupply_contact"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

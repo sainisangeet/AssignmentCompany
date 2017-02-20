@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_textview"
+        android:layout_weight="0.5"
+        android:name="com.example.sangeeth.assignment.FragMent" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/acivity_frag_ment2"
+        android:name="com.example.sangeeth.assignment.FragMent2"
+        android:layout_weight="0.5"/>
+
+
+</LinearLayout>

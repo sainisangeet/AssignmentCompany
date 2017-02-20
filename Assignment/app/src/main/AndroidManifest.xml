@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sangeeth.assignment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LayoutActivity" />
+        <activity
+            android:name=".DisplayData"
+            android:label="@string/title_activity_display_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AssignMent"
+            android:label="@string/title_activity_assign_ment"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddAddress"
+            android:label="@string/title_activity_add_address"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateAddress"
+            android:label="@string/title_activity_update_address"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment1" />
+        <activity android:name=".pageviewer.PagerView" />
+        <activity android:name=".tabview.TabViewers" />
+        <activity android:name=".tabview.Swipe" />
+        <activity android:name=".tabview.SwipeScroll" />
+        <activity android:name=".tabview.Scroll" />
+        <activity android:name=".expandableview.ExpandableViews" />
+        <activity android:name=".listfragment.FragmentList" />
+        <activity android:name=".recyclerviewwithprogressbar.RecyclerViewMainactivity" />
+        <activity android:name=".pagination.Pagination" />
+        <activity android:name=".volley.MainActivity">
+        </activity>
+    </application>
+
+</manifest>
