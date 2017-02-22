@@ -43,8 +43,9 @@
         <activity android:name=".listfragment.FragmentList" />
         <activity android:name=".recyclerviewwithprogressbar.RecyclerViewMainactivity" />
         <activity android:name=".pagination.Pagination" />
-        <activity android:name=".volley.MainActivity">
-        </activity>
+        <activity android:name=".volley.MainActivity" />
+        <activity android:name=".database.DataBaseActivity" />
+        <activity android:name=".database.ListViewDatabase"></activity>
     </application>
 
 </manifest>

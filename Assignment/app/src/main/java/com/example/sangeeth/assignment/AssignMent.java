@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.sangeeth.assignment.database.DataBaseActivity;
 import com.example.sangeeth.assignment.expandableview.ExpandableViews;
 import com.example.sangeeth.assignment.listfragment.FragmentList;
 import com.example.sangeeth.assignment.pageviewer.PagerView;
@@ -19,7 +20,7 @@ import com.example.sangeeth.assignment.volley.MainActivity;
 
 public class AssignMent extends AppCompatActivity {
 
-    Button assignment1, assignment2, assignment3, assignment4, assignment5, assignment6,assignment7,assignment8,assignment9;
+    Button assignment1, assignment2, assignment3, assignment4, assignment5, assignment6,assignment7,assignment8,assignment9,assignment10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class AssignMent extends AppCompatActivity {
         assignment7 = (Button) findViewById(R.id.assignment7);
         assignment8 = (Button) findViewById(R.id.assignment8);
         assignment9 = (Button) findViewById(R.id.assignment9);
+        assignment10 = (Button) findViewById(R.id.assignment10);
         OnClick();
     }
 
@@ -111,6 +113,15 @@ public class AssignMent extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AssignMent.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        assignment10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AssignMent.this, DataBaseActivity.class);
                 startActivity(intent);
             }
         });

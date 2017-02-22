@@ -58,7 +58,8 @@ class UserAdapter extends RecyclerView.Adapter < RecyclerView.ViewHolder >{
         return mUsers.get(position) == null ? VIEW_TYPE_LOADING : VIEW_TYPE_ITEM;
 
     }
-    @Override public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == VIEW_TYPE_ITEM) {
             View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_useritem, parent, false);
             return new RecyclerViewMainactivity.UserViewHolder(view);
@@ -68,7 +69,8 @@ class UserAdapter extends RecyclerView.Adapter < RecyclerView.ViewHolder >{
         }
         return null;
     }
-    @Override public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    @Override
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof RecyclerViewMainactivity.UserViewHolder) {
             Products user = mUsers.get(position);
             RecyclerViewMainactivity.UserViewHolder userViewHolder = (RecyclerViewMainactivity.UserViewHolder) holder;

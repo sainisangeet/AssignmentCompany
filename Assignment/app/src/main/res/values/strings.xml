@@ -142,6 +142,7 @@
     <string name="assignment7">Assignment 7th ListFragment</string>
     <string name="assignment8">Assignment 8th with recyclerview and progressbar</string>
     <string name="assignment9">Assignment 9th JSON</string>
+    <string name="assignment10">Assignment 10th DataBase</string>
 
 
 </resources>
